@@ -27,7 +27,7 @@
     "react-dom": "^17.0.1"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/mollyywang"
   },
-  "gitHead": "41af287c090308a1b81f9cb6aca50c90676d8701"
+  "gitHead": "783b2457b71f6189d95c754199f68e65c7330ee2"
 }
