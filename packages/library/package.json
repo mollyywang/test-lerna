@@ -1,5 +1,5 @@
 {
-  "name": "testing",
+  "name": "test-lerna",
   "version": "0.0.5",
   "description": "> TODO: description",
   "author": "mollyywang <molly.jw.wang@gmail.com>",
@@ -29,5 +29,5 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "gitHead": "4c444df521c268754fd7541bc45382d08a5687bb"
+  "gitHead": "9f7b5bbb101ef3a54592d25f2c1726b636168826"
 }
