@@ -1,0 +1,29 @@
+{
+  "name": "testing",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "mollyywang <molly.jw.wang@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/library.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "@storybook/react": "^6.1.9",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
