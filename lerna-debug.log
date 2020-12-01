@@ -1,0 +1,66 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'lerna' }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/molly.wang/code/test-lerna
+3 verbose session 6e72c592710b92c6
+4 verbose user-agent lerna/3.22.1/node@v10.16.0+x64 (darwin)
+5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '3.22.1' }
+6 verbose rootPath /Users/molly.wang/code/test-lerna
+7 info current version 0.0.3
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly currentBranch
+11 verbose currentBranch main
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "v0.0.3-1-gce52f61" => {"lastTagName":"v0.0.3","lastVersion":"v0.0.3","refCount":"1","sha":"ce52f61","isDirty":false}
+18 info Looking for changed packages since v0.0.3
+19 silly checking diff packages/library
+20 silly found diff in packages/library/package.json
+21 verbose filtered diff [ 'packages/library/package.json' ]
+22 verbose updated testing
+23 verbose git-describe undefined => "v0.0.3-1-gce52f61"
+24 silly git-describe parsed => {"lastTagName":"v0.0.3","lastVersion":"v0.0.3","refCount":"1","sha":"ce52f61","isDirty":false}
+25 info execute Skipping releases
+26 silly lifecycle No script for "preversion" in "root", continuing
+27 silly lifecycle No script for "preversion" in "testing", continuing
+28 silly lifecycle No script for "version" in "testing", continuing
+29 silly lifecycle No script for "version" in "root", continuing
+30 silly gitAdd [ 'packages/library/package.json',
+30 silly gitAdd   'packages/library/package-lock.json',
+30 silly gitAdd   'lerna.json' ]
+31 silly gitCommit v0.0.4
+32 verbose git [ 'commit', '-m', 'v0.0.4' ]
+33 silly gitTag v0.0.4
+34 verbose git [ 'tag', 'v0.0.4', '-m', 'v0.0.4' ]
+35 silly lifecycle No script for "postversion" in "testing", continuing
+36 silly lifecycle No script for "postversion" in "root", continuing
+37 info git Pushing tags...
+38 silly gitPush origin main
+39 info publish Publishing packages to npm...
+40 notice Skipping all user and access validation due to third-party registry
+41 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+42 warn ENOLICENSE Package testing is missing a license.
+42 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+42 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+43 silly getCurrentSHA
+44 verbose getCurrentSHA 4c444df521c268754fd7541bc45382d08a5687bb
+45 silly lifecycle No script for "prepublish" in "root", continuing
+46 silly lifecycle No script for "prepare" in "root", continuing
+47 silly lifecycle No script for "prepublishOnly" in "root", continuing
+48 silly lifecycle No script for "prepack" in "root", continuing
+49 verbose pack-directory packages/library/lib
+50 silly lifecycle No script for "prepublish" in "testing", continuing
+51 silly lifecycle No script for "prepare" in "testing", continuing
+52 silly lifecycle No script for "prepublishOnly" in "testing", continuing
+53 silly lifecycle No script for "prepack" in "testing", continuing
+54 silly lifecycle No script for "postpack" in "testing", continuing
+55 verbose packed packages/library/lib
+56 silly lifecycle No script for "postpack" in "root", continuing
+57 verbose publish testing
+58 error

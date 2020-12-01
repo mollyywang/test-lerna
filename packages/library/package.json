@@ -27,8 +27,7 @@
     "react-dom": "^17.0.1"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "directory": "lib"
+    "registry": "https://npm.pkg.github.com/"
   },
-  "gitHead": "ccfdbe962b805fcd2dbd2e08058a1c45fcb8dc58"
+  "gitHead": "4c444df521c268754fd7541bc45382d08a5687bb"
 }
