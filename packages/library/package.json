@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mollyywang/test-lerna.git"
+    "url": "git@github.com:mollyywang/test-lerna.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/mollyywang"
   },
-  "gitHead": "a102e55c386c3dfeb5f42a58efec51fefd3d845a"
+  "gitHead": "a50d806975e70c114dc65a10c9ea249c8077f263"
 }
