@@ -26,8 +26,12 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mollyywang/test-lerna"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/mollyywang"
   },
-  "gitHead": "783b2457b71f6189d95c754199f68e65c7330ee2"
+  "gitHead": "a536e1f014b866a7579bee9d1bbcaa555ea5406a"
 }
