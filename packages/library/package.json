@@ -1,6 +1,6 @@
 {
   "name": "test-lerna",
-  "version": "0.0.14",
+  "version": "0.0.13",
   "description": "> TODO: description",
   "author": "mollyywang <molly.jw.wang@gmail.com>",
   "homepage": "",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mollyywang/test-lerna.git"
+    "url": "https://github.com/mollyywang/test-lerna.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/mollyywang"
